@@ -1,5 +1,5 @@
 @media screen and (max-width: 460px){
-    .portfolio-item-content{
+    .destination-item-content{
         transform: translateY(76%);
     }
 }
@@ -28,13 +28,13 @@
         font-size: 1.4rem;
     }
 
-    .portfolio-row{
+    .destination-row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 
-    .portfolio-item{
+    .destination-item{
         margin: 1px;
     }
 
@@ -55,6 +55,15 @@
     
     .footer-item .social-links{
         justify-content: center;
+    }
+
+
+
+    .subscribe-form h2{
+        text-align: center;
+    }
+    .subscribe-form form{
+        margin-bottom: 20px;
     }
 
     .album-row, .top-row, .blog-row{
@@ -123,11 +132,17 @@
         color: var(--darkblue)
     }
 
-    .portfolio-item-content{
+    .destination-item-content{
         transform: translateY(75%);
     }
 
+    .subscribe-form{
+        padding-right: 0px;
+        margin-right: 0px; 
+    }
 
+    .subscribe-form h2{
+        text-align: left;
     }
 
     .about-row{
@@ -196,9 +211,10 @@
     }
 
 
+}
 
 @media screen and (min-width: 1200px){
-    .portfolio-row{
+    .destination-row{
         grid-template-columns: repeat(3, 1fr);
     }
 

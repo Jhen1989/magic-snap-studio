@@ -205,7 +205,7 @@ header{
 
 
 
-/* portfolio */
+/* Destination */
 .py-4{
     padding: 4rem 0;
 }
@@ -289,7 +289,7 @@ img{
     transition: var(--trans);
 }
 
-.portfolion-item{
+.destination-item{
     border-radius: 10px;
     position: relative;
     width: 100%;
@@ -299,7 +299,7 @@ img{
 }
 
 
-.portfolio-item::after{
+.destination-item::after{
     content: "";
     position: absolute;
     top: 0;
@@ -310,7 +310,7 @@ img{
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.7) 99%, rgba(0, 0, 0, 0.8) 100%)
 }
 
-.portfolion-item-content{
+.destination-item-content{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -322,24 +322,24 @@ img{
     transition: var(--transition);
 }
 
-.portfolio-item-content span{
+.destination-item-content span{
     font-size: 1.2rem;
     display: block;
     margin-bottom: 1.2 rem;
     text-transform: capitalize;
 }
 
-.portfolio-item p{
+.destination-item p{
     max-width: 90%;
 }
 
-.portfolio-item-content .text{
+.destination-item-content .text{
     color: white;
     transition: var(--transition);
 }
 
 
-.portfolio-item:hover .destination-item-content{
+.destination-item:hover .destination-item-content{
     transform: translateY(0);
 }
 
@@ -443,7 +443,7 @@ footer::before{
 
 
 
-/* portfolio Page */
+/* Destination Page */
 header.header-sm{
     min-height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/portfolio/image2.jpg) center/ cover no-repeat;
@@ -563,7 +563,7 @@ header.header-sm{
 }
 
 
-/* portfolio */
+/* Top Destination */
 #top.py-4{
     padding-bottom: 0;
 }
@@ -623,10 +623,10 @@ header.header-sm{
 }
 
 
-/* season package */
+/* Blog Page */
 header.header-blog{
     min-height: 40vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/season/image2.jpg) center/ cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/season package/blog01.jpg) center/ cover no-repeat;
     background-attachment: scroll; 
 }
 
@@ -635,16 +635,16 @@ header.header-blog{
     background-color: rgba(241, 237, 237, 0.975);
 }
 
-.season package -item{
+.blog-item{
     background-color: white;
     transition: var(--transition);
 }
 
-.bseason package -item-top{
+.blog-item-top{
     position: relative;
 }
 
-.season package -date{
+.blog-date{
     position: absolute;
     background-color: rgb(12, 73, 85);
     color: white;
@@ -657,11 +657,11 @@ header.header-blog{
     left: 5%;
 }
 
-.season package -item-bottom{
+.blog-item-bottom{
     padding: 2rem 1rem;
 }
 
-.season package -item-bottom span{
+.blog-item-bottom span{
     text-transform: uppercase;
     color: var(--darkblue);
     opacity: 0.7;
@@ -670,7 +670,7 @@ header.header-blog{
     margin-top: 1rem;
 }
 
-.season package -item-bottom a{
+.blog-item-bottom a{
     margin: 1rem 0;
     font-size: 1.4rem;
     display: block;
@@ -680,11 +680,11 @@ header.header-blog{
     transition: var(--transition);
 }
 
-.season package -item-bottom a:hover{
+.blog-item-bottom a:hover{
     opacity: 0.8;
 }
 
-#season package h2{
+#blog h2{
     text-align: center;
 }
 
